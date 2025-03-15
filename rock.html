@@ -1,1 +1,10 @@
-<img src="./the rock.png" style="cursor:pointer;margin-left:50%;transform:translate(-50%,50%)" onclick="new Audio('./boom.mp3').play()" />
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>🥌</title>
+        <link rel="preload" href="./boom.mp3" as="audio">
+    </head>
+    <body>
+        <img src="./the rock.png" style="cursor:pointer;margin-left:50vw;margin-top:50vh;transform:translate(-50%,-50%)" onclick="new Audio('./boom.mp3').play();document.body.style.backgroundColor = '#' + Math.floor(Math.random() * 16777215).toString(16);this.width*=1.1;" />
+    </body>
+</html>
