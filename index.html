@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Boba - Matthew</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 50px;
+            color: #333;
+        }
+
+        p {
+            text-align: center;
+            font-size: 20px;
+            color: #666;
+        }
+    </style>
+    <script>
+        setInterval(() => {
+            document.querySelector('h1').style.color = '#' + Math.floor(Math.random() * 16777215).toString(16);
+        }, 1000);
+    </script>
+</head>
+
+<body>
+<h1 onclick="alert('Hello, world!')">Helo!</h1>
+<p>Dis mah website</p>
+
+<p><a href="./rock.html">...</a></p>
+
+</body>
+
+</html>
